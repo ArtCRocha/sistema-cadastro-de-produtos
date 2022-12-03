@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "image": "https://images.samsung.com/is/image/samsung/africa-pt-uhdtv-ru7100-ua43ru7100kxxa-frontblack-160582580?$650_519_PNG$",
+      "name": "Tv Smart 4k",
+      "description": "Desfrute de imagens nítidas e precisas com a TV 4K UHD que tem 4x mais pixéis do que a TV FHD. Agora pode ver até os detalhes mais ínfimos em todas as cenas.",
+      "price": "3.599,90",
+      "id": 1
+    },
+    {
+      "image": "https://precoatualizado.com.br/min/smart-tv-led-4-full-hd-lg-4lk5700-com-ips-inteligencia-artificial-thinq-ai-wi-fi-processador-quad-core-e-hdr-10-pro.png",
+      "name": " Preço Smart TV LED 43'' Full HD LG ",
+      "description": "teste",
+      "price": "1.549,00",
+      "id": 2
+    },
+    {
+      "image": "https://images-americanas.b2w.io/produtos/01/00/offers/01/02/item/133791/9/133791942_1GG.png",
+      "name": "Tv",
+      "description": "teste",
+      "price": "1.249,90",
+      "id": 3
+    }
+  ]
+}
