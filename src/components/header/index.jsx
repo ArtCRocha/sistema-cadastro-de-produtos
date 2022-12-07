@@ -5,6 +5,7 @@ import { Container } from "./styles";
 const links = [
   { text: "Home", link: "/" },
   { text: "Cadastrar Produtos", link: "/cadastro-produto" },
+  { text: "Produtos", link: "/produtos" },
 ];
 
 const Header = () => {

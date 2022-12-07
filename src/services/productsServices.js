@@ -1,6 +1,6 @@
 const listaProdutos = () => {
-  return fetch("http://localhost:3000/products").then((res) => {
-    return res.json();
+  return fetch("http://localhost:3000/products").then((data) => {
+    return data.json();
   });
 };
 
@@ -21,4 +21,16 @@ const cadastrarProduto = (image, name, description, price) => {
   });
 };
 
-export { listaProdutos, cadastrarProduto };
+const deletarProduto = (id) => {
+  return fetch(`http://localhost:3000/products/${id}`, {
+    method: "DELETE",
+  });
+};
+
+const detalhesProduto = (id) => {
+  return fetch(`http://localhost:3000/products/${id}`).then((data) => {
+    return data.json();
+  });
+};
+
+export { listaProdutos, cadastrarProduto, deletarProduto, detalhesProduto };
